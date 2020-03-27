@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.youthgeneration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+
+        <activity android:name="com.example.youthgeneration.splashPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SelectedBook" />
+        <activity android:name=".BooksReserved" />
+        <activity android:name=".RecyclerViews" />
+        <activity android:name=".MyBooks" />
+        <activity android:name=".Books" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".RLPage">
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>

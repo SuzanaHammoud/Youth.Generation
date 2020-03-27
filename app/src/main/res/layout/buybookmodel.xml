@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/BuyBookParentLayoutid">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f5b5fc">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/BuyBookImageid"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher_round">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/BuyBookTitleid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/BuyBookImageid"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/BuyBookAuthorid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BuyBookTitleid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/BuyBookImageid"
+                android:gravity="center"
+                android:text="Author"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/BuyBookCategoryid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BuyBookAuthorid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/BuyBookImageid"
+                android:gravity="center"
+                android:text="Categories"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/BuyBookPriceid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BuyBookCategoryid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/BuyBookImageid"
+                android:gravity="center"
+                android:text="Price"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/BuyBookUserid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BuyBookImageid"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="User"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/BuyBookUserEmailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BuyBookUserid"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Email"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#96f7d2">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

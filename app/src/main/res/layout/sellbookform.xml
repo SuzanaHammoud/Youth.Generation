@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sellbookframeid"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/SellBookImageid"
+                android:layout_width="120dp"
+                android:layout_height="112dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/SellBookTitleid"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher_round">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookTitleid"
+                android:hint="Book title"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookAuthorid"
+                android:hint="Book Author"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookTitleid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookCategoryid"
+                android:hint="Book Category"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookAuthorid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookPriceid"
+                android:hint="Book Price"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookCategoryid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookDescriptionid"
+                android:hint="Book Description"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookPriceid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookImageUrlid"
+                android:hint="Image Url"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookDescriptionid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookuserid"
+                android:hint="User id"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookImageUrlid"
+                android:layout_marginLeft="50dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/SellBookUserEmailid"
+                android:hint="User Email"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/SellBookuserid"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                >
+            </EditText>
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/SellBookButtonid"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="600dp"
+            android:text="Submit"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp">
+
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

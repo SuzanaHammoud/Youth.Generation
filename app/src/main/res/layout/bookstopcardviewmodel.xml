@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="135dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SellBookParentLayoutid"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardMaxElevation="2dp"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="4dp"
+        android:background="#f2f2f2">
+
+        <RelativeLayout
+            android:layout_width="137dp"
+            android:layout_height="150dp"
+            android:background="#c886e5"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Books_topModelImgid"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_launcher_round">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/Books_topModelTitleid"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_below="@id/Books_topModelImgid"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="Library Books"
+                android:textColor="#f9f9f9">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

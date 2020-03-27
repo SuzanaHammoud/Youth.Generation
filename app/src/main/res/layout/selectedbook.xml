@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/SelectedBookImageid"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/SelectedBookDescriptionid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SelectedBookImageid"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Canada"
+        android:textColor="#000"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/SelectedBookbtnid"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:gravity="center"
+        android:text="Reserve">
+
+    </Button>
+
+</RelativeLayout>

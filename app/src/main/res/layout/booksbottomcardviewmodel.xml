@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomparentlayoutid"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp"
+        app:cardMaxElevation="2dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e5e4cc">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Books_bottomImgid"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher_round">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/Books_bottomTitleid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/Books_bottomImgid"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#bac7a7">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/Books_bottomAuthorid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Books_bottomTitleid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/Books_bottomImgid"
+                android:gravity="center"
+                android:text="Author"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#889e81">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/Books_bottomEditionid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Books_bottomAuthorid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/Books_bottomImgid"
+                android:gravity="center"
+                android:text="Edition"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#698474">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/Books_bottomIsbnid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Books_bottomEditionid"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/Books_bottomImgid"
+                android:gravity="center"
+                android:text="ISBN"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:background="#698474">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
